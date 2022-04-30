@@ -1,0 +1,13 @@
+package example.SimpleSpringCore;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SimpleSpringCoreApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
