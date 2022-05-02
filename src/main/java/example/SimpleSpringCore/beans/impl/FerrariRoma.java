@@ -16,7 +16,7 @@ public class FerrariRoma implements Car {
 
 	@Override
 	public String model() {
-		return "Model";
+		return "Roma";
 	}
 
 	@Override

@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 
 import example.SimpleSpringCore.beans.Car;
 
-@Controller("animalSound")
+@Controller()
 public class CarController {
 	
 	private Car car;
