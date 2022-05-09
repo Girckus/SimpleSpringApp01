@@ -13,4 +13,5 @@ public class SimpleSpringCoreConfiguration {
 	public Car getFerrari() {
 		return new FerrariRoma();
 	}
+
 }
