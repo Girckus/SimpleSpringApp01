@@ -7,6 +7,7 @@ import org.springframework.context.ApplicationContext;
 import example.SimpleSpringCore.controller.AnimalController;
 import example.SimpleSpringCore.controller.CarController;
 import example.SimpleSpringCore.controller.FruitController;
+import example.SimpleSpringCore.service.ClientService;
 
 @SpringBootApplication
 public class SimpleSpringCoreApplication {
@@ -25,6 +26,12 @@ public class SimpleSpringCoreApplication {
 		CarController carController = (CarController) appContext.getBean("carController");
 		
 		System.out.println(carController.info());
+		
+		ClientService client1 = (ClientService) appContext.getBean("client");
+		client1.processPayment(10);
+		
+		ClientService client2 = (ClientService) appContext.getBean("client");
+		client2.processPayment(20);
 	}
 
 }
