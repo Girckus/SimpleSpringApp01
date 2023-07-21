@@ -1,4 +1,4 @@
-# Simple Spring MVC example
+# Simple Core Spring examples
 An example of Spring Framework, testing core features, such as DI, Bean's Life Cycle, Aware Interfaces and Profiles
 
 ## Usage
