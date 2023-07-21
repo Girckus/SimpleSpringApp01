@@ -1,4 +1,4 @@
-package example.SimpleSpringCore.beans.impl;
+package example.SpringCore.beans.impl;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -8,7 +8,7 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-import example.SimpleSpringCore.beans.Car;
+import example.SpringCore.beans.Car;
 
 @Primary
 @Component

@@ -1,4 +1,4 @@
-package example.SimpleSpringCore.service;
+package example.SpringCore.service;
 
 import org.springframework.beans.factory.annotation.Lookup;
 import org.springframework.stereotype.Controller;

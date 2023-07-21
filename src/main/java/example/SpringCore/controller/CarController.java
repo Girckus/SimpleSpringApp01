@@ -1,8 +1,8 @@
-package example.SimpleSpringCore.controller;
+package example.SpringCore.controller;
 
 import org.springframework.stereotype.Controller;
 
-import example.SimpleSpringCore.beans.Car;
+import example.SpringCore.beans.Car;
 
 @Controller()
 public class CarController {

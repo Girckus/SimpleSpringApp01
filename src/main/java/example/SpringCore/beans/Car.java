@@ -1,4 +1,4 @@
-package example.SimpleSpringCore.beans;
+package example.SpringCore.beans;
 
 public interface Car {
 

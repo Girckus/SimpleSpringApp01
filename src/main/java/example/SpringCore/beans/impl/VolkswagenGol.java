@@ -1,8 +1,8 @@
-package example.SimpleSpringCore.beans.impl;
+package example.SpringCore.beans.impl;
 
 import org.springframework.stereotype.Component;
 
-import example.SimpleSpringCore.beans.Car;
+import example.SpringCore.beans.Car;
 
 @Component
 public class VolkswagenGol implements Car {
@@ -19,7 +19,7 @@ public class VolkswagenGol implements Car {
 
 	@Override
 	public String toString() {
-		return "FerrariRoma [brand()=" + brand() + ", model()=" + model() + "]";
+		return "VolkswagenGol [brand()=" + brand() + ", model()=" + model() + "]";
 	}
 	
 }

@@ -1,8 +1,8 @@
-package example.SimpleSpringCore.controller;
+package example.SpringCore.controller;
 
 import org.springframework.stereotype.Controller;
 
-import example.SimpleSpringCore.beans.Fruit;
+import example.SpringCore.beans.Fruit;
 
 @Controller
 public class FruitController {

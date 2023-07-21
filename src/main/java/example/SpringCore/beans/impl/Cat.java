@@ -1,4 +1,4 @@
-package example.SimpleSpringCore.beans.impl;
+package example.SpringCore.beans.impl;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationStartupAware;
 import org.springframework.core.metrics.ApplicationStartup;
 import org.springframework.stereotype.Component;
 
-import example.SimpleSpringCore.beans.Animal;
+import example.SpringCore.beans.Animal;
 
 @Component
 public class Cat implements Animal, ApplicationContextAware, ApplicationEventPublisherAware, ApplicationStartupAware {

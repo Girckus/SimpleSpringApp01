@@ -1,10 +1,10 @@
-package example.SimpleSpringCore;
+package example.SpringCore;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Component;
 
-import example.SimpleSpringCore.beans.impl.FerrariRoma;
+import example.SpringCore.beans.impl.FerrariRoma;
 
 @Component
 public class CustomBeanPostProcessor implements BeanPostProcessor {

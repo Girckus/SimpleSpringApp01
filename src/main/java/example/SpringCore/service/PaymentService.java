@@ -1,4 +1,4 @@
-package example.SimpleSpringCore.service;
+package example.SpringCore.service;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;

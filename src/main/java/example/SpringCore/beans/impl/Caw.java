@@ -1,4 +1,4 @@
-package example.SimpleSpringCore.beans.impl;
+package example.SpringCore.beans.impl;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanClassLoaderAware;
@@ -7,7 +7,7 @@ import org.springframework.beans.factory.BeanFactoryAware;
 import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.stereotype.Component;
 
-import example.SimpleSpringCore.beans.Animal;
+import example.SpringCore.beans.Animal;
 
 @Component
 public class Caw implements Animal, BeanClassLoaderAware, BeanFactoryAware, BeanNameAware {

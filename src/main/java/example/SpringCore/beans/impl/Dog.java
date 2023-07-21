@@ -1,4 +1,4 @@
-package example.SimpleSpringCore.beans.impl;
+package example.SpringCore.beans.impl;
 
 import org.springframework.context.EmbeddedValueResolverAware;
 import org.springframework.context.annotation.ImportAware;
@@ -8,7 +8,7 @@ import org.springframework.instrument.classloading.LoadTimeWeaver;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringValueResolver;
 
-import example.SimpleSpringCore.beans.Animal;
+import example.SpringCore.beans.Animal;
 
 @Component
 public class Dog implements Animal, EmbeddedValueResolverAware, ImportAware, LoadTimeWeaverAware {

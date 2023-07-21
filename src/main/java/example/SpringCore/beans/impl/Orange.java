@@ -1,9 +1,9 @@
-package example.SimpleSpringCore.beans.impl;
+package example.SpringCore.beans.impl;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
-import example.SimpleSpringCore.beans.Fruit;
+import example.SpringCore.beans.Fruit;
 
 @Profile("orange")
 @Component
