@@ -27,5 +27,5 @@ public class SpringCoreConfiguration {
 	    service.addConverter(new GenericBigDecimalConverter());
 	    return service;
 	}
-
+	
 }

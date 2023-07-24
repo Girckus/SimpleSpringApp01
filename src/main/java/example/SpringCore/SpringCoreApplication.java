@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+import example.SpringCore.beans.impl.SpELDemo;
 import example.SpringCore.controller.AnimalController;
 import example.SpringCore.controller.CarController;
 import example.SpringCore.controller.FruitController;
@@ -46,6 +47,9 @@ public class SpringCoreApplication {
 		System.out.println(bigDecimalService.getBigDecimal(Integer.valueOf(11)));
 		System.out.println(bigDecimalService.getBigDecimal(Double.valueOf(25.23)));
 		System.out.println(bigDecimalService.getBigDecimal("2.32"));
+		
+		SpELDemo spel = (SpELDemo) appContext.getBean("spELDemo");
+		System.out.println(spel);
 	}
 
 }
